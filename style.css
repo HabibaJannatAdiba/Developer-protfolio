@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Zen+Loop&display=swap');
+body{
+    font-family: 'Zen Loop', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.pink-color {
+    color: #e41f6e;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width: 50%;
+    padding:  5%;
+}
+.header{
+    padding-right: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width p{
+    color: #6157DC;
+    font-weight: Bolder;
+    font-size: large;
+}
+
+button{
+    background-image:linear-gradient(45deg,#fd40bb,#6a4adb);
+    padding:20px 20px;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-banner{
+    background-image: url(/images/top-ban.png);
+    background-size: 100% 100%;
+    background-position: center;
+   
+}
