@@ -7,17 +7,19 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .pink-color {
     color: #e41f6e;
-}
-section{
-    display:flex;
-    margin-bottom: 100;
-
 }
 .half-width{
     width: 50%;
     padding:  5%;
+}
+.flexible-container{
+    display:flex;
+    padding: 0;
 }
 .header{
     padding-right: 10%;
@@ -62,8 +64,27 @@ a{
 .Lifeplan p{
     padding-right: 5%;
 }
+.experiences{
+    margin: 15;
+}
+.experiences-area{
+    background-image: url(/images/exp-bg.png);
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: -1px 1px 20px rgb(182, 47, 110);
 
-
+}
+footer p{
+    text-align: center;
+     
+}
 
 
 
