@@ -12,6 +12,8 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 100;
+
 }
 .half-width{
     width: 50%;
@@ -47,4 +49,30 @@ a{
     background-size: 100% 100%;
     background-position: center;
    
+}
+.Lifeplan{
+    background-image: url(/images/lifeplan.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Lifeplan img{
+    width: 80%;
+}
+.Lifeplan p{
+    padding-right: 5%;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #9e116f);
+    border-radius: 6px;
 }
