@@ -47,13 +47,13 @@ a{
     color: #fff;
 }
 .top-banner{
-    background-image: url(/images/top-ban.png);
+    background-image: url("images/top-ban.png");
     background-size: 100% 100%;
     background-position: center;
    
 }
 .Lifeplan{
-    background-image: url(/images/lifeplan.png);
+    background-image: url("images/lifeplan.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -68,7 +68,7 @@ a{
     margin: 15;
 }
 .experiences-area{
-    background-image: url(/images/exp-bg.png);
+    background-image: url("images/exp-bg.png");
     margin-bottom: 50px;
     background-repeat: no-repeat;
     background-position: left;
